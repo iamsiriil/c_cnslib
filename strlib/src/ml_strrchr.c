@@ -1,6 +1,6 @@
 #include "stdlib.h"
 
-char	*st_strrchr(const char *s, int c)
+char	*ml_strrchr(const char *s, int c)
 {
 	const char	*ptr = s;
 

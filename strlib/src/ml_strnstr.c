@@ -1,6 +1,6 @@
-#include "strlib.h"
+#include "../inc/ml_strlib.h"
 
-char	*st_strnstr(const char *big, const char *little, size_t len)
+char	*ml_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t	i, j;
 

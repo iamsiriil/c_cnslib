@@ -1,6 +1,6 @@
-#include "strlib.h"
+#include "../inc/ml_strlib.h"
 
-char    *st_substr(const char *str, unsigned int start, size_t len)
+char    *ml_substr(const char *str, unsigned int start, size_t len)
 {
     char	*new_str = malloc(sizeof(char) * (len + 1));
 

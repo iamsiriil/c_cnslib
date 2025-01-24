@@ -1,6 +1,6 @@
-#include "strlib.h"
+#include "../inc/ml_strlib.h"
 
-char	*st_strncpy(char *dst, const char *src, size_t n)
+char	*ml_strncpy(char *dst, const char *src, size_t n)
 {
 	size_t	i = 0;
 

@@ -1,6 +1,6 @@
-#include "strlib.h"
+#include "../inc/ml_strlib.h"
 
-char    *st_strstr(const char *haystack, const char *needle)
+char    *ml_strstr(const char *haystack, const char *needle)
 {
 	int	i, j;
 

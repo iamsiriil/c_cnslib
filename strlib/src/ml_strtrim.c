@@ -1,4 +1,4 @@
-#include "strlib.h"
+#include "../inc/ml_strlib.h"
 
 static int	is_in_set(char c, const char *set)
 {
@@ -10,7 +10,7 @@ static int	is_in_set(char c, const char *set)
 	return 0;
 }
 
-char	*st_strtrim(const char *s, const char *set)
+char	*ml_strtrim(const char *s, const char *set)
 {
 	size_t	start = 0;
 	size_t	len = cns_strlen(s) - 1;
