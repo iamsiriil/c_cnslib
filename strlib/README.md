@@ -10,7 +10,15 @@ void  ml_bzero(void *s, size_t n);
 ```c
 void  ml_memchr(const void *s, int c, size_t n);
 ```
-<div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | reference page</p></div>
+<div align="right">
+  <p>
+    <a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source
+    </a> | 
+    <a href="https://linux.die.net/man/3/memchr">
+    reference page
+    </a>
+  </p>
+</div>
 
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
