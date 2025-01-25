@@ -9,7 +9,7 @@ void  ml_bzero(void *s, size_t n);
 
 <hr>
 
-<div align="left" width="150px"><h3>ml_memchr</h3></div> <div style="display: inline-block;"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | <a href="https://linux.die.net/man/3/memchr">reference page</a></p></div>
+<div align="left" width="150px"><h3>ml_memchr</h3></div> <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | <a href="https://linux.die.net/man/3/memchr">reference page</a></p></div>
 
 The function memchr, searches the fist n bites of string s for character c. It either returns a void pointer to the first instance of c, or NULL, if the character is not found.
 
