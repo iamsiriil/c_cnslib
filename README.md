@@ -1,4 +1,4 @@
-# My C Library
+|# My C Library |<a href=https://github.com/iamsiriil><img src=https://github.com/iamsiriil/iamsiriil/blob/main/homepage-icon-png.png align="right" width="25"></a>|
  
  This is a colection of custom libraries, created as a way of grouping together functions I've written as implementation exercises, throughout these past few years. Some of the functions have prototipes that are identical to their original C standard librarie's counterparts, others may have some alterations. There are even some functions I've added that are not to be found in the C Standard Library. 
  
@@ -7,12 +7,12 @@ The _'ml\_'_ prefix serves to diferentiate which functions are custom implementa
 ------------
 ## [ml_strlib](https://github.com/iamsiriil/c_myclib/tree/master/strlib)
 
-## ml_stdlib
+## stdlib
 
-## ml_siolib
+## siolib
 
-## ml_typlib
+## typlib
 
-## ml_matlib
+## matlib
 
 <a href=https://github.com/iamsiriil><img src=https://github.com/iamsiriil/iamsiriil/blob/main/homepage-icon-png.png align="right" width="25"></a>
