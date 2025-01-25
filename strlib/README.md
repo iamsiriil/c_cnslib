@@ -9,12 +9,7 @@ void  ml_bzero(void *s, size_t n);
 
 <hr>
 
-#### memchr
-The function memchr, searches the fist n bites of string s for character c. It either returns a void pointer to the first instance of c, or NULL, if the character is not found.
-
-```c
-void  ml_memchr(const void *s, int c, size_t n);
-```
+#### memchr 
 <div align="right">
   <p>
     <a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source
@@ -24,6 +19,12 @@ void  ml_memchr(const void *s, int c, size_t n);
     </a>
   </p>
 </div>
+
+The function memchr, searches the fist n bites of string s for character c. It either returns a void pointer to the first instance of c, or NULL, if the character is not found.
+
+```c
+void  ml_memchr(const void *s, int c, size_t n);
+```
 
 <hr>
 
