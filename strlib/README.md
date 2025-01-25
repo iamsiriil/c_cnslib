@@ -3,9 +3,14 @@
 
 ##### Custom implementation of functions found in the C Standard Library:
 
+### ml_memchr
+
+xxx
+
 ```c
 void  ml_bzero(void *s, size_t n);
 ```
+ <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_bzero.c">source</a> | <a href="https://linux.die.net/man/3/bzero">reference page</a></p></div>
 
 <hr>
 
