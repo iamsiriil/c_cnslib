@@ -9,7 +9,7 @@ void  ml_bzero(void *s, size_t n);
 
 <hr>
 
-<div align="left" width="150px"><h3>ml_memchr</h3></div>
+### ml_memchr
 
 The function memchr, searches the fist n bites of string s for character c. It either returns a void pointer to the first instance of c, or NULL, if the character is not found.
 
