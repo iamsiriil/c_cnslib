@@ -7,6 +7,10 @@
 void  ml_bzero(void *s, size_t n);
 ```
 
+```c
+void  ml_memchr(const void *s, int c, size_t n);
+```
+
 * ___ml_memchr___ 
 * ___ml_memcmp___
 * ___ml_memcpy___
