@@ -20,6 +20,8 @@ void  ml_memchr(const void *s, int c, size_t n);
   </p>
 </div>
 
+---
+
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
 ```
