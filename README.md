@@ -1,4 +1,4 @@
-# myclib
+# My C Library
  
  This is a colection of custom libraries, created as a way of grouping together functions I've written as implementation exercises, throughout these past few years. Some of the functions have prototipes that are identical to their original C standard librarie's counterparts, others may have some alterations. There are even some functions I've added that are not to be found in the C Standard Library. 
  
