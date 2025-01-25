@@ -10,6 +10,7 @@ void  ml_bzero(void *s, size_t n);
 ```c
 void  ml_memchr(const void *s, int c, size_t n);
 ```
+<p style="text-align:left">source</p>
 
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
