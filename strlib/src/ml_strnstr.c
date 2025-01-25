@@ -1,22 +1,19 @@
 #include "../inc/ml_strlib.h"
 
-char	*ml_strnstr(const char *big, const char *little, size_t len)
-{
-	size_t	i, j;
+char	*ml_strnstr(const char *bg, const char *lt, size_t ln) {
 
-	if (*little == '\0')
-		return (char *)big;
-	if (*big == '\0' || len == 0)
-		return NULL;
-	i = 0;
-	while (big[i] && len > i) {
+	if (*lt == '\0') return (char *)bg;
+
+	if (*bg == '\0' || ln == 0) return NULL;
+
+	size_t	i = 0, j;
+	for (; bg[i] && ln > i; i++) {
 		j = 0;
-		while (little[j] && (big[i + j] == little[j]) && ((i + j) < len))
-			++j;
-		if (little[j] == '\0')
-			return (char *)&big[i];
-		i++;
+		for (; lt[j] && (bg[i + j] == lt[j]) && ((i + j) < ln)); ++j) ;
+
+		if (lt[j] == '\0') return (char *)&bg[i];
 	}
+
 	return NULL;
 }
 

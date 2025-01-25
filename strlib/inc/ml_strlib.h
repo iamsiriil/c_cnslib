@@ -21,5 +21,14 @@ void	ml_striteri(char *s, void (*f)(unsigned int, char*));
 char	*ml_strjoin(char const *s1, char const *s2);
 size_t	ml_strlcat(char *dst, const char *src, size_t sz);
 size_t	ml_strlcpy(char *dst, const char *src, size_t sz);
+size_t	ml_strlen(const char *s);
+char	*ml_strmapi(char const *s, char (*f)(unsigned int, char));
+int	ml_strncmp(const char *s1, const char *s2, size_t n);
+char	*ml_strncpy(char *dst, const char *src, size_t n);
+char	*ml_strnstr(const char *bg, const char *lt, size_t ln);
+char	*ml_strrchr(const char *s, int c);
+char	*ml_strstr(const char *hs, const char *nd);
+char	*ml_strtrim(const char *s, const char *set);
+char	*ml_substr(const char *s, unsigned int st, size_t ln);
 
 #endif

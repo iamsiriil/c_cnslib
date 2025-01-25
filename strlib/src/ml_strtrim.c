@@ -1,28 +1,25 @@
 #include "../inc/ml_strlib.h"
 
-static int	is_in_set(char c, const char *set)
-{
-	while (*set != '\0') {
-		if (c == *set)
-			return 1;
-		set++;
+static int	_isinset(char c, const char *st) {
+
+	for (; *st != '\0'; st++) {
+		if (c == *st) return 1;
 	}
+
 	return 0;
 }
 
-char	*ml_strtrim(const char *s, const char *set)
-{
-	size_t	start = 0;
-	size_t	len = cns_strlen(s) - 1;
-	char	*new_str;
+char	*ml_strtrim(const char *s, const char *set) {
+
+	size_t	st = 0, ln = cns_strln(s) - 1;
 	
-	while (is_in_set(s[start], set))
-		start++;
-	while (is_in_set(s[len], set))
-		len--;
-	len -= start;
-	
-	new_str = cns_substr(s, (start + 1), (len + 1));
-	return new_str;
+	while (_isinset(s[st], set)) st++;
+
+	while (_isinset(s[ln], set)) ln--;
+
+	ln -= st;
+	char *ns = cns_substr(s, (st + 1), (ln + 1));
+
+	return ns;
 }
 

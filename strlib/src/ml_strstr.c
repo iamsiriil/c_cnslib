@@ -1,23 +1,18 @@
 #include "../inc/ml_strlib.h"
 
-char    *ml_strstr(const char *haystack, const char *needle)
-{
-	int	i, j;
+char    *ml_strstr(const char *hs, const char *nd) {
 
-	if (needle[0] == '\0')
-		return (char *)haystack;
-	if (haystack[0] == '\0')
-		return NULL;
-	i = 0;
-	while (haystack[i] != '\0') {
-		j = 0;
-		while ((haystack[i + j] == needle[j]) && needle[j]) {
-			if (needle[j + 1] == '\0')
-				return ((char *)&haystack[i]);
-			j++;
+	if (nd[0] == '\0') return (char *)hs;
+
+	if (hs[0] == '\0') return NULL;
+
+	for (int i = 0; hs[i] != '\0'; i++) {
+		for (int j = 0; (hs[i + j] == nd[j]) && nd]j]; j++) {
+			if (nd[j + 1] == '\0')
+				return ((char *)&hs[i]);
 		}
-		i++;
 	}
+
 	return NULL;
 }
 
