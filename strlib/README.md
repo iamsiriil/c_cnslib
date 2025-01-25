@@ -3,7 +3,9 @@
 
 ##### Custom implementation of functions found in the C Standard Library:
 
-* ___ml_bzero___
+{{{c
+void  ml_bzero(void *s, size_t n);
+}}}
 * ___ml_memchr___ 
 * ___ml_memcmp___
 * ___ml_memcpy___
