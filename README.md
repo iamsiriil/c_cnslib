@@ -5,7 +5,7 @@
 The _'ml\_'_ prefix serves to diferentiate which functions are custom implementation written by me, and which functions are Standard C Library function.
 
 ------------
-## [ml_strlib](https://github.com/iamsiriil/c_myclib/tree/master/strlib)
+## [strlib](https://github.com/iamsiriil/c_myclib/tree/master/strlib)
 
 ## stdlib
 
