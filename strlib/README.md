@@ -23,10 +23,22 @@ void  ml_memcpy(void *dst, const void *src, size_t n);
 void  ml_memmove(void *dst, const void *src, size_t n);
 ```
 
+```c
+void  ml_memset(void *s, int c, size_t n):
+```
 
-* ___ml_memchr___ 
-* ___ml_memcmp___
-* ___ml_memcpy___
-* ___ml_memmove___
-* ___ml_memset___ 
+```c
+char  ml_strchr(const char *s, int c);
+```
 
+```c
+char  ml_strrchr(const char *s, int c);
+```
+
+```c
+int  ml_strcmp(const char *s1, const char *s2);
+```
+
+```c
+int  ml_strncmp(const char *s1, const char *s2, size_t n);
+```
