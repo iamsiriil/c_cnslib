@@ -15,4 +15,4 @@ The _'ml\_'_ prefix serves to diferentiate which functions are custom implementa
 
 ## ml_matlib
 
-<img src=https://github.com/iamsiriil/iamsiriil/blob/main/homepage-icon-png.png>
+<a href=https://github.com/iamsiriil><img src=https://github.com/iamsiriil/iamsiriil/blob/main/homepage-icon-png.png align="right"></a>
