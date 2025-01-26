@@ -5,7 +5,7 @@
 
 ### [bzero](https://github.com/iamsiriil/c_myclib/wiki/bzero)
 
-xxx
+The function bzero clears a block of memory of size n, pointed to by *s, by filling it with zeros.
 
 ```c
 void  ml_bzero(void *s, size_t n);
