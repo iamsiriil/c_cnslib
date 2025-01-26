@@ -3,7 +3,7 @@
 
 ##### Custom implementation of functions found in the C Standard Library:
 
-### ml_memchr
+### [bzero](https://github.com/iamsiriil/c_myclib/wiki/bzero)
 
 xxx
 
@@ -14,7 +14,7 @@ void  ml_bzero(void *s, size_t n);
 
 <hr>
 
-### ml_memchr
+### memchr
 
 The function memchr, searches the fist n bites of string s for character c. It either returns a void pointer to the first instance of c, or NULL, if the character is not found.
 
