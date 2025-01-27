@@ -1,7 +1,7 @@
 # strlib <a href=https://github.com/iamsiriil><img src=https://github.com/iamsiriil/iamsiriil/blob/main/homepage-icon-png.png align="right" width="25"></a>
 
 
-##### Custom implementation of functions found in the C Standard Library:
+### Custom implementation of functions found in the C Standard Library:
 
 ### [bzero](https://github.com/iamsiriil/c_myclib/wiki/bzero)
 
