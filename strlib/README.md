@@ -21,12 +21,12 @@ The function memchr, searches the fist n bites of string s for character c. It e
 void  ml_memchr(const void *s, int c, size_t n);
 ```
  <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | <a href="https://linux.die.net/man/3/memchr">reference page</a></p></div>
-
 <hr>
 
 ### [memcmp](https://github.com/iamsiriil/c_myclib/wiki/memchr)
 
-Memcmp compares the first n bites, pointed to by s1 and s2. In case the data stored in both memory locations is equal, the function returns 0, otherwise it return the difference of s1 - s2. n<sup>th</sup>
+Memcmp compares the first n bites, pointed to by s1 and s2. In case the data stored in both memory locations is equal, the function returns 0, otherwise it return the difference of $$s1 - s2$$.
+
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
 ```
