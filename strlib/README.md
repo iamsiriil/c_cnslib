@@ -9,8 +9,8 @@ The function bzero clears a block of memory of size n, pointed to by *s, by fill
 ```c
 void  ml_bzero(void *s, size_t n);
 ```
- <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_bzero.c">source</a> | <a href="https://linux.die.net/man/3/bzero">reference page</a></p></div>
 
+ <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_bzero.c">source</a> | <a href="https://linux.die.net/man/3/bzero">reference page</a></p></div>
 <hr>
 
 ### [memchr](https://github.com/iamsiriil/c_myclib/wiki/memchr)
@@ -30,6 +30,9 @@ Memcmp compares the first $$n$$ bites, pointed to by s1 and s2. In case the data
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
 ```
+
+<div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memcmp.c">source</a> | <a href="https://www.man7.org/linux/man-pages/man3/memcmp.3.html">reference page</a></p></div>
+<hr>
 
 ```c
 void  ml_memcpy(void *dst, const void *src, size_t n);
