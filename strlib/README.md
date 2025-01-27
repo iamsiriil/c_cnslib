@@ -23,7 +23,7 @@ void  ml_memchr(const void *s, int c, size_t n);
  <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | <a href="https://linux.die.net/man/3/memchr">reference page</a></p></div>
 <hr>
 
-### [memcmp](https://github.com/iamsiriil/c_myclib/wiki/memchr)
+### [memcmp](https://github.com/iamsiriil/c_myclib/wiki/memcmp)
 
 Memcmp compares the first $$n$$ bites, pointed to by s1 and s2. In case the data stored in both memory locations is equal, the function returns 0, otherwise it return the difference of $$s1 - s2$$.
 
