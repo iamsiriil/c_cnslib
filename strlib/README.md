@@ -2,6 +2,9 @@
 
 ## Custom implementation of functions found in the C Standard Library:
 
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
 ### [bzero](https://github.com/iamsiriil/c_myclib/wiki/bzero)
 
 The function bzero clears a block of memory of size n, pointed to by *s, by filling it with zeros.
@@ -9,9 +12,10 @@ The function bzero clears a block of memory of size n, pointed to by *s, by fill
 ```c
 void  ml_bzero(void *s, size_t n);
 ```
-
  <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_bzero.c">source</a> | <a href="https://linux.die.net/man/3/bzero">reference page</a></p></div>
 <hr>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
 
 ### [memchr](https://github.com/iamsiriil/c_myclib/wiki/memchr)
 
@@ -23,6 +27,8 @@ void  ml_memchr(const void *s, int c, size_t n);
  <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memchr.c">source</a> | <a href="https://linux.die.net/man/3/memchr">reference page</a></p></div>
 <hr>
 
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
 ### [memcmp](https://github.com/iamsiriil/c_myclib/wiki/memcmp)
 
 Memcmp compares the first $$n$$ bites, pointed to by s1 and s2. In case the data stored in both memory locations is equal, the function returns 0, otherwise it return the difference of $$s1 - s2$$.
@@ -30,13 +36,21 @@ Memcmp compares the first $$n$$ bites, pointed to by s1 and s2. In case the data
 ```c
 int  ml_memcmp(const void *s1, const void *s2, size_t n);
 ```
-
 <div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memcmp.c">source</a> | <a href="https://www.man7.org/linux/man-pages/man3/memcmp.3.html">reference page</a></p></div>
 <hr>
+
+<!------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------>
+
+### [memcpy](https://github.com/iamsiriil/c_myclib/wiki/memcpy)
+
+Memcpy copies $$n$$ bites from memory block pointed to bt src, to dst.
 
 ```c
 void  ml_memcpy(void *dst, const void *src, size_t n);
 ```
+
+<div align="right"><p><a href="https://github.com/iamsiriil/c_myclib/blob/master/strlib/src/ml_memcpy.c">source</a> | <a href="https://www.man7.org/linux/man-pages/man3/memcpy.3.html">reference page</a></p></div>
+<hr>
 
 ```c
 void  ml_memmove(void *dst, const void *src, size_t n);
