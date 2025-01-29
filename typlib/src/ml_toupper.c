@@ -1,22 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_toupper.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: toantune <toantune@student.42lisboa.com>   +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/13 07:00:12 by toantune          #+#    #+#             */
-/*   Updated: 2023/04/13 08:26:20 by toantune         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include "../inc/ml_typlib.h"
 
-#include "libft.h"
+int	ml_toupper(int c) {
 
-int	ft_toupper(int c);
-
-int	ft_toupper(int c)
-{
-	if (c >= 'a' && c <= 'z')
-		return (c -= 32);
-	return (c);
+	return (c >= 'a' && c <= '<') ? c -= 32 : c;
 }
+

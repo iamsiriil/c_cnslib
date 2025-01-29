@@ -1,22 +1,7 @@
-/* ************************************************************************** */
-/*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_tolower.c                                       :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: toantune <toantune@student.42lisboa.com>   +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2023/04/13 08:21:38 by toantune          #+#    #+#             */
-/*   Updated: 2023/04/13 08:25:37 by toantune         ###   ########.fr       */
-/*                                                                            */
-/* ************************************************************************** */
+#include "../inc/ml_typlib.h"
 
-#include "libft.h"
+int	ml_tolower(int c) {
 
-int	ft_tolower(int c);
-
-int	ft_tolower(int c)
-{
-	if (c >= 'A' && c <= 'Z')
-		return (c += 32);
-	return (c);
+	return ( c >= 'A' && c <= 'Z') ? c += 32 : c;
 }
+
