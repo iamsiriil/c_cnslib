@@ -5,6 +5,8 @@
 # include <stdlib.h>
 # include <stdio.h>
 # include <math.h>
+# include "cns_typlib.h"
+# include "cns_strlib.h"
 
 void	*cns_calloc(size_t nm, size_t sz);
 double	cns_atod(const char *np);
