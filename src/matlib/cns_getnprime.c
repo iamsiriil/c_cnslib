@@ -8,4 +8,4 @@ int	cns_getnprime(void)
 
 	return n;
 }
-
+This is a test!
