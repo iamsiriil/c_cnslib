@@ -1,7 +1,7 @@
-#include "../inc/ml_../inc/ml_strlib.h"
+#include "../inc/cns_../inc/cns_strlib.h"
 
 /*
- * ml_dstrtok is a custom version that broadly imitates the
+ * cns_dstrtok is a custom version that broadly imitates the
  * original strtok function, present in string.h, but using
  * dynamic memory allocation.
  */
@@ -27,7 +27,7 @@ static char	*_substr(const char *st, int ln) {
 	return pt;
 }
 
-char	*ml_dstrtok(char *s, const char *dl) {
+char	*cns_dstrtok(char *s, const char *dl) {
 
 	static char	*st = NULL;
 	char		*en, *ss = NULL;

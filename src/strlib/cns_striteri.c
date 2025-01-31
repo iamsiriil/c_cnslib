@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-void	ml_striteri(char *s, void (*f)(unsigned int, char*)) {
+void	cns_striteri(char *s, void (*f)(unsigned int, char*)) {
 
 	if (!s) return ;
 

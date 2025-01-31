@@ -1,8 +1,8 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char	*ml_strjoin(char const *s1, char const *s2) {
+char	*cns_strjoin(char const *s1, char const *s2) {
 
-	int	ln = ml_strln(s1) + ml_strln(s2);
+	int	ln = cns_strln(s1) + cns_strln(s2);
 	char	*s = malloc(sizeof(char) * (ln + 1));
 	if (!s) return NULL;
 

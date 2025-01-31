@@ -1,4 +1,4 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
 static size_t	_countstr(char const *s, char c) {
 
@@ -28,7 +28,7 @@ static void	_getstr(char const *s, char c, char **sp) {
 				i++;
 				ln++;
 			}
-			*sp = ml_substr(s, st, ln);
+			*sp = cns_substr(s, st, ln);
 			sp++;
 		}
 		else i++;
@@ -36,7 +36,7 @@ static void	_getstr(char const *s, char c, char **sp) {
 	*sp = NULL;
 }
 
-char	**ml_split(char const *s, char c) {
+char	**cns_split(char const *s, char c) {
 	
 	size_t ln = _countstr(s, c);
 

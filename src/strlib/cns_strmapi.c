@@ -1,10 +1,10 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char	*ml_strmapi(char const *s, char (*f)(unsigned int, char)) {
+char	*cns_strmapi(char const *s, char (*f)(unsigned int, char)) {
 
 	if (s == NULL) return NULL;
 
-	char	*str = malloc(sizeof(char) * (ml_strlen(s) + 1));
+	char	*str = malloc(sizeof(char) * (cns_strlen(s) + 1));
 	if (!str) return NULL;
 
 	unsigned int	i = 0;

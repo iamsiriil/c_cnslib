@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char	*ml_strchr(const char *s, int c) {
+char	*cns_strchr(const char *s, int c) {
 
 	do {
 		if (*s == (uchar)c)

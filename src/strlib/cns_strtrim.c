@@ -1,4 +1,4 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
 static int	_isinset(char c, const char *st) {
 
@@ -9,7 +9,7 @@ static int	_isinset(char c, const char *st) {
 	return 0;
 }
 
-char	*ml_strtrim(const char *s, const char *set) {
+char	*cns_strtrim(const char *s, const char *set) {
 
 	size_t	st = 0, ln = cns_strln(s) - 1;
 	

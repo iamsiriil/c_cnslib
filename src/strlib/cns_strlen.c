@@ -1,6 +1,6 @@
 #include "stdlib.h"
 
-size_t	ml_strlen(const char *s) {
+size_t	cns_strlen(const char *s) {
 
 	size_t	i = 0;
 

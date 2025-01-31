@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char    *ml_substr(const char *s, unsigned int st, size_t ln) {
+char    *cns_substr(const char *s, unsigned int st, size_t ln) {
 
 	char *ns = malloc(sizeof(char) * (ln + 1));
 

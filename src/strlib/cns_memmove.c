@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-void	*ml_memmove(void *dst, const void *src, size_t n) {
+void	*cns_memmove(void *dst, const void *src, size_t n) {
 
 	size_t	i;
 

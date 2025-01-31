@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char	*ml_strnstr(const char *bg, const char *lt, size_t ln) {
+char	*cns_strnstr(const char *bg, const char *lt, size_t ln) {
 
 	if (*lt == '\0') return (char *)bg;
 

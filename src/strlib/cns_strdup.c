@@ -1,8 +1,8 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-char	*ml_strdup(const char *s) {
+char	*cns_strdup(const char *s) {
 
-	char	*ns = malloc(ml_strlen(s) + 1);
+	char	*ns = malloc(cns_strlen(s) + 1);
 	if (!ns) return NULL;
 
 	int	i = 0;

@@ -1,6 +1,6 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-void	*ml_memcpy(void *dst, const void *src, size_t n) {
+void	*cns_memcpy(void *dst, const void *src, size_t n) {
 
 	if (!dst || !src) return NULL;
 

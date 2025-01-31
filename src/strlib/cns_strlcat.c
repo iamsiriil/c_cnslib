@@ -1,9 +1,9 @@
-#include "../inc/ml_strlib.h"
+#include "../inc/cns_strlib.h"
 
-size_t	ml_strlcat(char *dst, const char *src, size_t sz) {
+size_t	cns_strlcat(char *dst, const char *src, size_t sz) {
 
-	size_t	dsz = ml_strlen(dst);
-	size_t	ssz = ml_strlen(src);
+	size_t	dsz = cns_strlen(dst);
+	size_t	ssz = cns_strlen(src);
 
 	if (sz <= dsz) return ssz + sz;
 
