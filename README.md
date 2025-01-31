@@ -5,7 +5,7 @@ This is a __collection__ of custom libraries, created as a way of grouping toget
 The 'ml_' prefix serves to differentiate between functions that are custom implementations written by me and those that belong to the __Standard C Library__.
 
 ------------
-## [strlib](https://github.com/iamsiriil/c_cnslib/blob/master/src/strlib/README.md)
+## [strlib](https://github.com/iamsiriil/c_cnslib/tree/master/src/strlib)
 
 ## stdlib
 
