@@ -1,4 +1,4 @@
-#include "../inc/ml_stdlib.h"
+#include "../inc/cns_stdlib.h"
 
 static int	_abs(int n) {
 
@@ -19,7 +19,7 @@ static int	_getsize(int n) {
 	return sz;
 }
 
-char	*ml_itoa(int n) {
+char	*cns_itoa(int n) {
 
 	char *nb = (char *)malloc(szof(char) * sz);
 

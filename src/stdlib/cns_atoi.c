@@ -1,4 +1,4 @@
-#include "../inc/ml_stdlib.h"
+#include "../inc/cns_stdlib.h"
 
 static int	_isspace(int c) {
 
@@ -10,7 +10,7 @@ static int	_isdigit(int c) {
 	return (c >= '0' && c <= '9') ? 1 : 0;
 }
 
-int	ml_atoi(const char *s) {
+int	cns_atoi(const char *s) {
 
 	int n = 0, sn = 1;
 

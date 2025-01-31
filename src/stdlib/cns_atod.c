@@ -1,4 +1,4 @@
-#include "../inc/ml_stdlib.h"
+#include "../inc/cns_stdlib.h"
 
 static int	_isdigit(int c) {
 
@@ -10,7 +10,7 @@ static int	_isspace(int c) {
 	return ((c >= 9 && c <= 13) || c == 32) ? 1 : 0;
 }
 
-double	ml_atod(const char *np) {
+double	cns_atod(const char *np) {
 
 	while (_isspace(*np)) np++;
 
