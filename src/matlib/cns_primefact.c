@@ -23,9 +23,9 @@ static int	*_addprime(int *arr, int pr)
 	return narr;
 }
 
-int	*ml_primefact(long int nbr)
+int	*cns_primefact(long int nbr)
 {
-	int	pr = ml_getnprime();
+	int	pr = cns_getnprime();
 	int	*parr = NULL;
 
 	while (nbr != 1) {
@@ -34,7 +34,7 @@ int	*ml_primefact(long int nbr)
 			nbr /= pr;
 		}
 		else
-			pr = ml_getnprime();
+			pr = cns_getnprime();
 	}
 
 	return parr;

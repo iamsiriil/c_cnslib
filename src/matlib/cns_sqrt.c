@@ -1,6 +1,6 @@
 #include "../../inc/cns_matlib.h"
 
-int	ml_sqrt(int nbr)
+int	cns_sqrt(int nbr)
 {
 	if (nbr == 0)
 		return 0;

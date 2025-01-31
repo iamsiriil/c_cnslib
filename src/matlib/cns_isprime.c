@@ -1,6 +1,6 @@
 #include "../../inc/cns_matlib.h"
 
-int	ml_isprime(int nbr)
+int	cns_isprime(int nbr)
 {
 	if (nbr <= 1)
 		return 0;
