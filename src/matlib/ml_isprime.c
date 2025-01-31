@@ -1,4 +1,4 @@
-#include "../inc/matlib.h"
+#include "../../inc/cns_matlib.h"
 
 int	ml_isprime(int nbr)
 {

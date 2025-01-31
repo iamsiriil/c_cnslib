@@ -1,12 +1,12 @@
-#ifndef ML_TYPLIB_H
-# define ML_TYPLIB_H
+#ifndef CNS_TYPLIB_H
+# define CNS_TYPLIB_H
 
-int	ml_isalnum(int c); 
-int	ml_isalpha(int c);
-int	ml_isascii(int c);
-int	ml_isdigit(int c);
-int	ml_isprint(int c);
-int	ml_tolower(int c);
-int	ml_toupper(int c);
+int	cns_isalnum(int c); 
+int	cns_isalpha(int c);
+int	cns_isascii(int c);
+int	cns_isdigit(int c);
+int	cns_isprint(int c);
+int	cns_tolower(int c);
+int	cns_toupper(int c);
 
 #endif

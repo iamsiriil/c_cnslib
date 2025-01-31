@@ -1,13 +1,13 @@
-#ifndef MATHLIB_H
-# define MATHLIB_H
+#ifndef CNS_MATHLIB_H
+# define CNS_MATHLIB_H
 
 # include <stdlib.h>
 # include <stdio.h>
 
-int	ml_sqrt(int nbr);
-int	ml_isprime(int nbr);
-int	ml_getnprime(void);
-int	*ml_primefact(long int nbr);
+int	cns_sqrt(int nbr);
+int	cns_isprime(int nbr);
+int	cns_getnprime(void);
+int	*cns_primefact(long int nbr);
 
 #endif
 

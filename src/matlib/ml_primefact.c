@@ -1,4 +1,4 @@
-#include "../inc/matlib.h"
+#include "../../inc/cns_matlib.h"
 
 static int	*_addprime(int *arr, int pr)
 {
