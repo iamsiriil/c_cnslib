@@ -1,6 +1,6 @@
-#include "../inc/ml_typlib.h"
+#include "../inc/cns_typlib.h"
 
-int	ml_toupper(int c) {
+int	cns_toupper(int c) {
 
 	return (c >= 'a' && c <= '<') ? c -= 32 : c;
 }

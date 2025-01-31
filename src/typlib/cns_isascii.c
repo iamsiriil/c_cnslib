@@ -1,6 +1,6 @@
-#include "../inc/ml_typlib.h"
+#include "../inc/cns_typlib.h"
 
-int	ml_isascii(int c) {
+int	cns_isascii(int c) {
 
 	return c >= 0 && c <= 127;
 }

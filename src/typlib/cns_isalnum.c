@@ -1,7 +1,7 @@
-#include "../inc/ml_typlib.h"
+#include "../inc/cns_typlib.h"
 
-int	ml_isalnum(int c) {
+int	cns_isalnum(int c) {
 
-	return ml_isalpha(c) || ml_isdigit(c);
+	return cns_isalpha(c) || cns_isdigit(c);
 }
 

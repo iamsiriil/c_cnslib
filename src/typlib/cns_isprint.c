@@ -1,6 +1,6 @@
-#include "../inc/ml_typlib.h"
+#include "../inc/cns_typlib.h"
 
-int	ml_isprint(int c) {
+int	cns_isprint(int c) {
 
 	return c >= 32 && c <= 126;
 }

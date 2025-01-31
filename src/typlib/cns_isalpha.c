@@ -1,6 +1,6 @@
-#include "../inc/ml_typlib.h"
+#include "../inc/cns_typlib.h"
 
-int	ml_isalpha(int c) {
+int	cns_isalpha(int c) {
 
 	return ((c >= 'a' && c <= 'z') || 
 		(c >= 'A' && c <= 'Z'));
