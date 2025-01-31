@@ -1,6 +1,6 @@
 #include "../inc/stdlib.h"
 
-void	ft_putendl_fd(char *s, int fd)
+void	cns_putendl_fd(char *s, int fd)
 {
 	for (; *s != '\0'; s++)
 		write(fd, s, 1);

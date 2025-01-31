@@ -62,7 +62,7 @@ static char	*_getline(int lbrk, char *buff, int fd)
 	return line;
 }
 
-char	*sd_getnexline(int fd)
+char	*cns_getnexline(int fd)
 {
 	static char	buff[BUFFER_SIZE + 1];
 	int		lbrk = 0, i;
