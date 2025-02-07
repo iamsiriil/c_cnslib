@@ -1,4 +1,4 @@
-#include "../inc/cns_typlib.h"
+#include "../../inc/cns_typlib.h"
 
 int	cns_isascii(int c) {
 
